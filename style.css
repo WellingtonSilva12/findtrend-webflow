@@ -7,7 +7,8 @@
 html {
   font-size: 62.5%;
 }
-body {
+button {
+  cursor: pointer;
 }
 main {
   height: 100vh;
@@ -23,9 +24,7 @@ nav {
 }
 
 nav .logo {
-  color: #fff;
-  font-size: 2rem;
-  font-weight: 0;
+  cursor: pointer;
 }
 nav ul {
   display: flex;
